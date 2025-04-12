@@ -8,11 +8,27 @@
 import SwiftUI
 
 struct MonitoringItem: View {
+    var sensorValue: Int
+    var monitoring: Monitoring
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack{
+            VStack{
+                HStack{
+                    Text("\(sensorValue)")
+                    Text(monitoring.unit)
+                }
+                Text(monitoring.name)
+            }
+        }
+        .frame(height: 80)
+        .frame(maxWidth: .infinity)
+        .background(Color.gray)
+        .clipShape(.rect(cornerRadius: 6))
+        .shadow(color: .black.opacity(0.1), radius: 5)
     }
 }
 
 #Preview {
-    MonitoringItem()
+    MonitoringItem(sensorValue: 120, monitoring: Monitoring.amonia)
 }

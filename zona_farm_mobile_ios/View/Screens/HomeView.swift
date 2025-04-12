@@ -9,8 +9,8 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        VStack{
-            HStack{
+        ScrollView{
+            HStack(alignment: .center){
                 VStack{
                     Text("Welcome")
                         .multilineTextAlignment(.leading)
@@ -19,12 +19,36 @@ struct HomeView: View {
                         .multilineTextAlignment(.leading)
                         .font(.system(size: 30))
                 }
-                .padding(.leading, 10)
                 Spacer()
+                
+                Button(action: {}, label: {
+                    HStack{
+                        Text("Pupuk")
+                            .foregroundColor(.white)
+                    }
+                    .frame(width: 80, height: 40)
+                    .background(
+                        RoundedRectangle(cornerRadius: 10)
+                            .fill(.gray)
+                    )
+                })
             }
+        
+            VStack{
+                Text("Analisis Suara")
+                Text("Terdeteksi suara batuk dari ayam")
+            }
+            .frame(maxWidth: .infinity)
+            .background(
+                RoundedRectangle(cornerRadius: 10)
+                    .fill(.gray)
+            )
+            
+            MonitoringGridView()
             
             Spacer()
         }
+        .padding(.horizontal, 20)
     }
 }
 

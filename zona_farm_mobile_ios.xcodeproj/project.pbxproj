@@ -15,6 +15,9 @@
 		ABD64BEC2DA92986009B37FD /* ToolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD64BEB2DA92986009B37FD /* ToolsView.swift */; };
 		ABD64BEE2DA929A9009B37FD /* StatistikView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD64BED2DA929A9009B37FD /* StatistikView.swift */; };
 		ABD64BF02DA929BE009B37FD /* InformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD64BEF2DA929BE009B37FD /* InformationView.swift */; };
+		ABD64BF42DA96DCA009B37FD /* MonitoringGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD64BF32DA96DCA009B37FD /* MonitoringGridView.swift */; };
+		ABD64BF62DA96DE2009B37FD /* MonitoringItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD64BF52DA96DE2009B37FD /* MonitoringItem.swift */; };
+		ABD64BF82DA96E06009B37FD /* Monitoring.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD64BF72DA96E06009B37FD /* Monitoring.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +30,9 @@
 		ABD64BEB2DA92986009B37FD /* ToolsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolsView.swift; sourceTree = "<group>"; };
 		ABD64BED2DA929A9009B37FD /* StatistikView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatistikView.swift; sourceTree = "<group>"; };
 		ABD64BEF2DA929BE009B37FD /* InformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationView.swift; sourceTree = "<group>"; };
+		ABD64BF32DA96DCA009B37FD /* MonitoringGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitoringGridView.swift; sourceTree = "<group>"; };
+		ABD64BF52DA96DE2009B37FD /* MonitoringItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitoringItem.swift; sourceTree = "<group>"; };
+		ABD64BF72DA96E06009B37FD /* Monitoring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monitoring.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,7 @@
 		ABD64BE62DA9281D009B37FD /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				ABD64BF72DA96E06009B37FD /* Monitoring.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -87,11 +94,8 @@
 		ABD64BE72DA92830009B37FD /* View */ = {
 			isa = PBXGroup;
 			children = (
-				ABD64BDA2DA9224F009B37FD /* ContentView.swift */,
-				ABD64BE92DA92979009B37FD /* HomeView.swift */,
-				ABD64BEB2DA92986009B37FD /* ToolsView.swift */,
-				ABD64BED2DA929A9009B37FD /* StatistikView.swift */,
-				ABD64BEF2DA929BE009B37FD /* InformationView.swift */,
+				ABD64BF12DA9606E009B37FD /* Screens */,
+				ABD64BF22DA9607A009B37FD /* Components */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -101,6 +105,27 @@
 			children = (
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		ABD64BF12DA9606E009B37FD /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				ABD64BDA2DA9224F009B37FD /* ContentView.swift */,
+				ABD64BE92DA92979009B37FD /* HomeView.swift */,
+				ABD64BEB2DA92986009B37FD /* ToolsView.swift */,
+				ABD64BED2DA929A9009B37FD /* StatistikView.swift */,
+				ABD64BEF2DA929BE009B37FD /* InformationView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		ABD64BF22DA9607A009B37FD /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				ABD64BF32DA96DCA009B37FD /* MonitoringGridView.swift */,
+				ABD64BF52DA96DE2009B37FD /* MonitoringItem.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,9 +201,12 @@
 				ABD64BEA2DA92979009B37FD /* HomeView.swift in Sources */,
 				ABD64BDB2DA9224F009B37FD /* ContentView.swift in Sources */,
 				ABD64BEC2DA92986009B37FD /* ToolsView.swift in Sources */,
+				ABD64BF82DA96E06009B37FD /* Monitoring.swift in Sources */,
 				ABD64BF02DA929BE009B37FD /* InformationView.swift in Sources */,
+				ABD64BF62DA96DE2009B37FD /* MonitoringItem.swift in Sources */,
 				ABD64BEE2DA929A9009B37FD /* StatistikView.swift in Sources */,
 				ABD64BD92DA9224F009B37FD /* zona_farm_mobile_iosApp.swift in Sources */,
+				ABD64BF42DA96DCA009B37FD /* MonitoringGridView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

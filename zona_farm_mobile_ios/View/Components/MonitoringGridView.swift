@@ -9,7 +9,14 @@ import SwiftUI
 
 struct MonitoringGridView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        LazyVGrid(columns:[GridItem(), GridItem()] ,spacing: 10){
+            MonitoringItem(sensorValue: 120, monitoring: .kotoran)
+            MonitoringItem(sensorValue: 120, monitoring: .cahaya)
+            MonitoringItem(sensorValue: 120, monitoring: .heatStress)
+            MonitoringItem(sensorValue: 120, monitoring: .suhu)
+            MonitoringItem(sensorValue: 120, monitoring: .kelembaban)
+            MonitoringItem(sensorValue: 120, monitoring: .amonia)
+        }
     }
 }
 
