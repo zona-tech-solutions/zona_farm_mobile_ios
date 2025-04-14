@@ -18,6 +18,9 @@
 		ABD64BF42DA96DCA009B37FD /* MonitoringGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD64BF32DA96DCA009B37FD /* MonitoringGridView.swift */; };
 		ABD64BF62DA96DE2009B37FD /* MonitoringItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD64BF52DA96DE2009B37FD /* MonitoringItem.swift */; };
 		ABD64BF82DA96E06009B37FD /* Monitoring.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD64BF72DA96E06009B37FD /* Monitoring.swift */; };
+		ABD64BFA2DAA4BD4009B37FD /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD64BF92DAA4BD4009B37FD /* CustomButton.swift */; };
+		ABD64BFE2DAD1015009B37FD /* MonitoringHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD64BFD2DAD1015009B37FD /* MonitoringHomeView.swift */; };
+		ABD64C012DAD1A65009B37FD /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD64C002DAD1A65009B37FD /* Color+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +36,9 @@
 		ABD64BF32DA96DCA009B37FD /* MonitoringGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitoringGridView.swift; sourceTree = "<group>"; };
 		ABD64BF52DA96DE2009B37FD /* MonitoringItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitoringItem.swift; sourceTree = "<group>"; };
 		ABD64BF72DA96E06009B37FD /* Monitoring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monitoring.swift; sourceTree = "<group>"; };
+		ABD64BF92DAA4BD4009B37FD /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		ABD64BFD2DAD1015009B37FD /* MonitoringHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitoringHomeView.swift; sourceTree = "<group>"; };
+		ABD64C002DAD1A65009B37FD /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				ABD64BD82DA9224F009B37FD /* zona_farm_mobile_iosApp.swift */,
+				ABD64BFF2DAD1A53009B37FD /* Extensions */,
 				ABD64BE62DA9281D009B37FD /* Model */,
 				ABD64BE72DA92830009B37FD /* View */,
 				ABD64BE82DA92838009B37FD /* ViewModel */,
@@ -122,10 +129,20 @@
 		ABD64BF22DA9607A009B37FD /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				ABD64BFD2DAD1015009B37FD /* MonitoringHomeView.swift */,
 				ABD64BF32DA96DCA009B37FD /* MonitoringGridView.swift */,
 				ABD64BF52DA96DE2009B37FD /* MonitoringItem.swift */,
+				ABD64BF92DAA4BD4009B37FD /* CustomButton.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		ABD64BFF2DAD1A53009B37FD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				ABD64C002DAD1A65009B37FD /* Color+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,11 +219,14 @@
 				ABD64BDB2DA9224F009B37FD /* ContentView.swift in Sources */,
 				ABD64BEC2DA92986009B37FD /* ToolsView.swift in Sources */,
 				ABD64BF82DA96E06009B37FD /* Monitoring.swift in Sources */,
+				ABD64BFA2DAA4BD4009B37FD /* CustomButton.swift in Sources */,
 				ABD64BF02DA929BE009B37FD /* InformationView.swift in Sources */,
 				ABD64BF62DA96DE2009B37FD /* MonitoringItem.swift in Sources */,
+				ABD64BFE2DAD1015009B37FD /* MonitoringHomeView.swift in Sources */,
 				ABD64BEE2DA929A9009B37FD /* StatistikView.swift in Sources */,
 				ABD64BD92DA9224F009B37FD /* zona_farm_mobile_iosApp.swift in Sources */,
 				ABD64BF42DA96DCA009B37FD /* MonitoringGridView.swift in Sources */,
+				ABD64C012DAD1A65009B37FD /* Color+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

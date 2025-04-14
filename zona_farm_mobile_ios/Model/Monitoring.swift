@@ -12,44 +12,44 @@ enum Monitoring: String, CaseIterable{
         self
     }
     
-    case kotoran
-    case cahaya
-    case heatStress
+    case kelembapan
     case suhu
-    case kelembaban
     case amonia
+    case blower
+    case thi
+    case cahaya
     
     var name: String {
         switch self {
-        case .kotoran:
-            "Deteksi Kotoran"
-        case .cahaya:
-            "Cahaya"
-        case .heatStress:
-            "Heatstress Index"
+        case .kelembapan:
+            "Kelembapan"
         case .suhu:
             "Suhu"
-        case .kelembaban:
-            "Kelembaban"
         case .amonia:
             "Amonia"
+        case .blower:
+            "Kecepatan Blower"
+        case .thi:
+            "THI"
+        case .cahaya:
+            "Intensitas Cahaya"
         }
     }
     
     var unit: String {
         switch self{
-        case .kotoran:
+        case .kelembapan:
+            "%"
+        case .suhu:
+            "°C"
+        case .amonia:
+            "ppm"
+        case .blower:
+            "rpm"
+        case .thi:
             ""
         case .cahaya:
             "Lux"
-        case .heatStress:
-            "%"
-        case .suhu:
-            "C"
-        case .kelembaban:
-            "%"
-        case .amonia:
-            "ppm"
         }
     }
     

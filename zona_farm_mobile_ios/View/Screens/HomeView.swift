@@ -11,40 +11,17 @@ struct HomeView: View {
     var body: some View {
         ScrollView{
             HStack(alignment: .center){
-                VStack{
-                    Text("Welcome")
+                VStack(alignment: .leading){
+                    Image(.logoTitle)
+                        .padding(.bottom, 10)
+                    Text("Hi, Diandra")
                         .multilineTextAlignment(.leading)
-                        .foregroundColor(.gray)
-                    Text("Satria")
-                        .multilineTextAlignment(.leading)
-                        .font(.system(size: 30))
+                        .font(.system(size: 20))
                 }
                 Spacer()
-                
-                Button(action: {}, label: {
-                    HStack{
-                        Text("Pupuk")
-                            .foregroundColor(.white)
-                    }
-                    .frame(width: 80, height: 40)
-                    .background(
-                        RoundedRectangle(cornerRadius: 10)
-                            .fill(.gray)
-                    )
-                })
             }
         
-            VStack{
-                Text("Analisis Suara")
-                Text("Terdeteksi suara batuk dari ayam")
-            }
-            .frame(maxWidth: .infinity)
-            .background(
-                RoundedRectangle(cornerRadius: 10)
-                    .fill(.gray)
-            )
-            
-            MonitoringGridView()
+            MonitoringHomeView()
             
             Spacer()
         }

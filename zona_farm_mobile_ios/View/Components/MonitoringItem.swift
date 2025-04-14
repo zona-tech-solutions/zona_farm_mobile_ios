@@ -23,7 +23,7 @@ struct MonitoringItem: View {
         }
         .frame(height: 80)
         .frame(maxWidth: .infinity)
-        .background(Color.gray)
+        .background(.white)
         .clipShape(.rect(cornerRadius: 6))
         .shadow(color: .black.opacity(0.1), radius: 5)
     }
