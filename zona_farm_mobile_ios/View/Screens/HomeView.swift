@@ -14,9 +14,12 @@ struct HomeView: View {
                 VStack(alignment: .leading){
                     Image(.logoTitle)
                         .padding(.bottom, 10)
+                    
                     Text("Hi, Diandra")
                         .multilineTextAlignment(.leading)
                         .font(.system(size: 20))
+                        .fontWeight(.bold)
+                        .foregroundColor(Color(hex: "025464"))
                 }
                 Spacer()
             }

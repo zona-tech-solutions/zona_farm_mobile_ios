@@ -18,8 +18,10 @@ struct CustomButton: View {
     var body: some View {
         Button(action: action, label: {
             HStack{
-                Text(title)
-                    .foregroundColor(.white)
+                Image(systemName: title)
+                    .resizable()
+                    .frame(width: width-width/3, height: height-height/3)
+                    .foregroundColor(Color(hex: "025464"))
             }
             .frame(width: width, height: height)
             .background(
@@ -33,5 +35,5 @@ struct CustomButton: View {
 #Preview {
     CustomButton(action: {
         print("halo")
-    }, title: "Pupuk", width: 80, height: 40, cornerRadius: 10, backgroundColor: .gray )
+    }, title: "arrow.right", width: 80, height: 40, cornerRadius: 10, backgroundColor: .gray )
 }
