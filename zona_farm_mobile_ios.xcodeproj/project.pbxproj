@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ABAAC14F2DB11046004FB78E /* ArticleCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAAC14E2DB11046004FB78E /* ArticleCardView.swift */; };
 		ABD64BD92DA9224F009B37FD /* zona_farm_mobile_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD64BD82DA9224F009B37FD /* zona_farm_mobile_iosApp.swift */; };
 		ABD64BDB2DA9224F009B37FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD64BDA2DA9224F009B37FD /* ContentView.swift */; };
 		ABD64BDD2DA92252009B37FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABD64BDC2DA92252009B37FD /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ABAAC14E2DB11046004FB78E /* ArticleCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleCardView.swift; sourceTree = "<group>"; };
 		ABD64BD52DA9224F009B37FD /* zona_farm_mobile_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zona_farm_mobile_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABD64BD82DA9224F009B37FD /* zona_farm_mobile_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zona_farm_mobile_iosApp.swift; sourceTree = "<group>"; };
 		ABD64BDA2DA9224F009B37FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				ABD64BFD2DAD1015009B37FD /* MonitoringHomeView.swift */,
+				ABAAC14E2DB11046004FB78E /* ArticleCardView.swift */,
 				ABD64BF32DA96DCA009B37FD /* MonitoringGridView.swift */,
 				ABD64BF52DA96DE2009B37FD /* MonitoringItem.swift */,
 				ABD64BF92DAA4BD4009B37FD /* CustomButton.swift */,
@@ -225,6 +228,7 @@
 				ABD64BFE2DAD1015009B37FD /* MonitoringHomeView.swift in Sources */,
 				ABD64BEE2DA929A9009B37FD /* StatistikView.swift in Sources */,
 				ABD64BD92DA9224F009B37FD /* zona_farm_mobile_iosApp.swift in Sources */,
+				ABAAC14F2DB11046004FB78E /* ArticleCardView.swift in Sources */,
 				ABD64BF42DA96DCA009B37FD /* MonitoringGridView.swift in Sources */,
 				ABD64C012DAD1A65009B37FD /* Color+Extensions.swift in Sources */,
 			);
