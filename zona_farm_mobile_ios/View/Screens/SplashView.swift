@@ -24,7 +24,7 @@ struct SplashView: View {
                         .resizable()
                         .scaledToFit()
                         .frame(height: 50)
-                        .padding(.top, showLogin ? 130 : UIScreen.main.bounds.height / 2 - 25)
+                        .padding(.top, showLogin ? 80 : UIScreen.main.bounds.height / 2 - 25)
                         .animation(.easeInOut(duration: 0.3), value: showLogin)
 
                     Spacer()
@@ -39,7 +39,7 @@ struct SplashView: View {
             }
             .sheet(isPresented: $showLogin) {
                 LoginView()
-                    .presentationDetents([.fraction(0.7)])
+                    .presentationDetents([.fraction(0.8)])
                     .presentationCornerRadius(20)
                     .interactiveDismissDisabled(true)
             }

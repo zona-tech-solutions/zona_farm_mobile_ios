@@ -10,6 +10,7 @@
 		ABAAC14F2DB11046004FB78E /* ArticleCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAAC14E2DB11046004FB78E /* ArticleCardView.swift */; };
 		ABAAC1512DB27CA1004FB78E /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAAC1502DB27CA1004FB78E /* SplashView.swift */; };
 		ABAAC1562DB28197004FB78E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAAC1552DB28197004FB78E /* LoginView.swift */; };
+		ABAAC1582DB2932C004FB78E /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAAC1572DB2932C004FB78E /* CustomTextField.swift */; };
 		ABD64BD92DA9224F009B37FD /* zona_farm_mobile_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD64BD82DA9224F009B37FD /* zona_farm_mobile_iosApp.swift */; };
 		ABD64BDB2DA9224F009B37FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD64BDA2DA9224F009B37FD /* ContentView.swift */; };
 		ABD64BDD2DA92252009B37FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABD64BDC2DA92252009B37FD /* Assets.xcassets */; };
@@ -30,6 +31,7 @@
 		ABAAC14E2DB11046004FB78E /* ArticleCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleCardView.swift; sourceTree = "<group>"; };
 		ABAAC1502DB27CA1004FB78E /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		ABAAC1552DB28197004FB78E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		ABAAC1572DB2932C004FB78E /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		ABD64BD52DA9224F009B37FD /* zona_farm_mobile_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zona_farm_mobile_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABD64BD82DA9224F009B37FD /* zona_farm_mobile_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zona_farm_mobile_iosApp.swift; sourceTree = "<group>"; };
 		ABD64BDA2DA9224F009B37FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -145,11 +147,12 @@
 		ABD64BF22DA9607A009B37FD /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				ABD64BFD2DAD1015009B37FD /* MonitoringHomeView.swift */,
 				ABAAC14E2DB11046004FB78E /* ArticleCardView.swift */,
+				ABD64BFD2DAD1015009B37FD /* MonitoringHomeView.swift */,
 				ABD64BF32DA96DCA009B37FD /* MonitoringGridView.swift */,
 				ABD64BF52DA96DE2009B37FD /* MonitoringItem.swift */,
 				ABD64BF92DAA4BD4009B37FD /* CustomButton.swift */,
+				ABAAC1572DB2932C004FB78E /* CustomTextField.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 				ABD64BDB2DA9224F009B37FD /* ContentView.swift in Sources */,
 				ABD64BEC2DA92986009B37FD /* ToolsView.swift in Sources */,
 				ABAAC1562DB28197004FB78E /* LoginView.swift in Sources */,
+				ABAAC1582DB2932C004FB78E /* CustomTextField.swift in Sources */,
 				ABD64BF82DA96E06009B37FD /* Monitoring.swift in Sources */,
 				ABD64BFA2DAA4BD4009B37FD /* CustomButton.swift in Sources */,
 				ABD64BF02DA929BE009B37FD /* InformationView.swift in Sources */,
